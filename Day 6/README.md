@@ -37,8 +37,6 @@ c. Pushed the "feature-logout" branch to the remote repository with 'git push ma
 
 ## *Git Workflow*
 
-This repository demonstrates a simple Git workflow with the following steps:
-
 ### Step 1: Create and Switch to "develop" Branch
 
 a. Switch to the "main" branch using 'git checkout main.'
