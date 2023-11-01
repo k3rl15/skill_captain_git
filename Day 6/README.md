@@ -35,7 +35,7 @@ b. Pushed the "feature-login" branch to the remote repository with 'git push mai
 c. Pushed the "feature-logout" branch to the remote repository with 'git push main feature-logout.'
 
 
-## *Git Workflow README*
+## *Git Workflow*
 
 This repository demonstrates a simple Git workflow with the following steps:
 
