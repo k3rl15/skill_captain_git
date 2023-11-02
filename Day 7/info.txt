@@ -1,0 +1,8 @@
+Tutorial: Resolving Conflicts in Git
+
+To Do
+
+Concept:
+
+Objective: In this tutorial, we will explore how to handle merge conflicts in Git. We will cover understanding merge conflicts, 
+strategies for resolving conflicts, using Git tools to resolve conflicts, and best practices for conflict resolution.
