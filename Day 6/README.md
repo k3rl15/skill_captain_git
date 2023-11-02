@@ -59,3 +59,91 @@ a. Push the "develop" branch to the remote repository:
 a. Switch back to the "main" branch using 'git checkout main.'
 b. Merge the changes from the "develop" branch into the "main" branch using 'git merge develop.'
 
+
+## *Pull Requests and Code Reviews*
+
+### Step 1: Fork a Repository
+
+a. Visited the repository to be contributed to.
+b. Clicked the "Fork" button to create a fork in my account.
+
+### Step 2: Create a New Branch and Make Changes
+
+a. Cloned the forked repository to the local machine using `git clone`.
+   - 'git clone https://github.com/k3rl15/HelpDesk.git'
+b. Navigated to the cloned repository and created a new branch.
+   - 'cd "C:\Users\car1b\Projects\HelpDesk"'
+   - 'git checkout -b feature-fix-bug'
+c. Fixed the dice range bug within the `dice.py` file.
+d. Staged and committed the changes.
+   - 'git add dice.py'
+   - 'git commit -m "Fix the dice range bug"'
+
+### Step 3: Open a Pull Request
+
+a. Pushed the changes to the forked repository.
+   - 'git push origin feature-fix-bug'
+b. Visited the forked repository on GitHub and created a pull request.
+
+### Step 4: Request Code Review
+
+a. No comments or suggestions were provided.
+
+### Step 5: Address Feedback and Update the Pull Request
+
+e. No updates were necessary.
+
+### Step 6: Merge the Pull Request
+
+a. Once he pull request was approved.
+b. Clicked the "Merge Pull Request" button on GitHub.
+c. Confirmed the merge.
+
+
+## *Working with Upstream Repositories*
+
+### Step 1: Find a First Contribution Repository
+
+a. First contributions repository
+   - 'https://github.com/firstcontributions/first-contributions'
+
+### Step 2: Fork the Repository
+
+a. Visited the repository's GitHub page.
+b. Clicked the "Fork" button to create a fork of the repository in your GitHub account.
+
+### Step 3: Add Upstream Remote and Sync
+
+a. Cloned your forked repository to your local machine:
+   - 'git clone https://github.com/k3rl15/first-contributions.git'
+b. Navigated to the cloned repository:
+   'cd "C:\Users\car1b\Projects\first-contributions"'
+c. Added the original repository as an "upstream" remote:
+   - 'git remote add upstream https://github.com/firstcontributions/first-contributions.git'
+
+### Step 4: Fetched and merged the latest changes from upstream:
+a. Fetched the latest changes from the upstream repository:
+   - 'git fetch upstream'
+b. Merged these changes into your local repository:
+   - 'git merge upstream/main'
+
+### Step 5: Make Additional Changes
+
+a. Made changes to the "Contributors.md" file as required.
+b. Checked the status of your changes:
+   - 'git status -s'
+c. Added the "Contributors.md" file to the staging area:
+   - 'git add Contributors.md'
+d. Committed your changes with a descriptive message:
+   - 'git commit -m "Add Kerlis Gray to Contributors list"'
+
+### Step 6: Push Changes to Your Forked Repository
+
+a. Pushed your local changes to your forked repository:
+   - 'git push origin main'
+
+### Step 7: Open a Pull Request
+
+a. Visited your forked repository on GitHub.
+b. Clicked on "Contribute," then selected "Open Pull Request."
+c. Submitted the pull request.
